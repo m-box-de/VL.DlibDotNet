@@ -1,0 +1,105 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "VL.DlibDotNet/1.0.0": {
+        "dependencies": {
+          "DlibDotNet.CUDA100": "19.18.0.20200301",
+          "NETStandard.Library": "2.0.3",
+          "OpenCvSharp3-AnyCPU": "4.0.0.20181129"
+        },
+        "runtime": {
+          "VL.DlibDotNet.dll": {}
+        }
+      },
+      "DlibDotNet.CUDA100/19.18.0.20200301": {
+        "runtime": {
+          "lib/netstandard2.0/DlibDotNet.dll": {
+            "assemblyVersion": "19.18.0.0",
+            "fileVersion": "19.18.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "OpenCvSharp3-AnyCPU/4.0.0.20181129": {
+        "dependencies": {
+          "System.Drawing.Common": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenCvSharp.Blob.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/OpenCvSharp.Extensions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/OpenCvSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Drawing.Common/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VL.DlibDotNet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DlibDotNet.CUDA100/19.18.0.20200301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hrpGCNZmRoNTNuFfOVuscpbr0wSteTE6M0fftMz4xTmLDnWXKhJedhA7pf6AHOHgkpbNtzv5yPGr4X0y2TLdPg==",
+      "path": "dlibdotnet.cuda100/19.18.0.20200301",
+      "hashPath": "dlibdotnet.cuda100.19.18.0.20200301.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "OpenCvSharp3-AnyCPU/4.0.0.20181129": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fAXJW98FU3ZAlS3LDrRAXeg7h5ufA9Z1mAQNsXIPSTQHS+Ql2+KdzdYXs+p+lZhyH9baJWPDB42E+EN1KJ0Y3w==",
+      "path": "opencvsharp3-anycpu/4.0.0.20181129",
+      "hashPath": "opencvsharp3-anycpu.4.0.0.20181129.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AiJFxxVPdeITstiRS5aAu8+8Dpf5NawTMoapZ53Gfirml24p7HIfhjmCRxdXnmmf3IUA3AX3CcW7G73CjWxW/Q==",
+      "path": "system.drawing.common/4.5.0",
+      "hashPath": "system.drawing.common.4.5.0.nupkg.sha512"
+    }
+  }
+}

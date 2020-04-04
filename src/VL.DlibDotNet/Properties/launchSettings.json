@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "VL.DlibDotNet": {
+      "commandName": "Executable"
+    }
+  }
+}
