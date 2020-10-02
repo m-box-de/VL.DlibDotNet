@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>VL.DlibDotNet</id>
+    <version>1.0.0-alpha</version>
+    <title>VL.DlibDotNet</title>
+    <authors>Alexander Shaliapin, m-box</authors>
+    <owners>Alexander Shaliapin</owners>
+    <projectUrl>https://github.com/m-box-de/VL.DlibDotNet</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>A VL wrapper for DlibDotNet</summary>
+    <description>DlibDotNet for VL</description>
+    <copyright>Please refer to the original repo of DlibDotNet</copyright>
+    <tags>VL, DlibDotNet, computervision, video, dlib, detection, recognition, tracking, ml</tags>
+    <dependencies>
+      <dependency id="DlibDotNet.CUDA100" version="19.20.0.20200725" />
+      <dependency id="VL.OpenCV" version="1.1.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\lib\**" target="lib\" exclude="" />
+    <file src="..\*.vl" target="" exclude="" />
+    <file src="..\help\**" target="help\" exclude="" />
+  </files>
+</package>
