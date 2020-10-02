@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.DlibDotNet</id>
-    <version>1.0.0-alpha</version>
+    <version>1.0.1-alpha</version>
     <title>VL.DlibDotNet</title>
     <authors>Alexander Shaliapin, m-box</authors>
     <owners>Alexander Shaliapin</owners>
