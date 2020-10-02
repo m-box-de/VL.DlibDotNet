@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>D:\_RESEARCHES\depth_pointer\_patches\VL.DlibDotNet\lib\</OutputPath>
+    <OutputPath>..\..\lib</OutputPath>
+    <DocumentationFile>..\..\lib\netstandard2.0\VL.DlibDotNet.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
