@@ -9,7 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "VL.DlibDotNet/1.0.0": {
         "dependencies": {
-          "DlibDotNet.CUDA100": "19.18.0.20200301",
+          "DlibDotNet.CUDA100": "19.20.0.20200725",
           "NETStandard.Library": "2.0.3",
           "OpenCvSharp3-AnyCPU": "4.0.0.20181129"
         },
@@ -17,11 +17,11 @@
           "VL.DlibDotNet.dll": {}
         }
       },
-      "DlibDotNet.CUDA100/19.18.0.20200301": {
+      "DlibDotNet.CUDA100/19.20.0.20200725": {
         "runtime": {
           "lib/netstandard2.0/DlibDotNet.dll": {
-            "assemblyVersion": "19.18.0.0",
-            "fileVersion": "19.18.0.0"
+            "assemblyVersion": "19.20.0.0",
+            "fileVersion": "19.20.0.0"
           }
         }
       },
@@ -66,12 +66,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DlibDotNet.CUDA100/19.18.0.20200301": {
+    "DlibDotNet.CUDA100/19.20.0.20200725": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hrpGCNZmRoNTNuFfOVuscpbr0wSteTE6M0fftMz4xTmLDnWXKhJedhA7pf6AHOHgkpbNtzv5yPGr4X0y2TLdPg==",
-      "path": "dlibdotnet.cuda100/19.18.0.20200301",
-      "hashPath": "dlibdotnet.cuda100.19.18.0.20200301.nupkg.sha512"
+      "sha512": "sha512-PlnT+SIJKy0MJ9VeB8ENeWI9VdNvtYB2Ih5UBgfxpjTl222Cqjf8J3q4j/XFNqG0/q1/Gj3+Z4FAMcwFzqsosA==",
+      "path": "dlibdotnet.cuda100/19.20.0.20200725",
+      "hashPath": "dlibdotnet.cuda100.19.20.0.20200725.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

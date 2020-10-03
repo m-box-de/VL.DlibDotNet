@@ -14,7 +14,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DlibDotNet.CUDA100" Version="19.18.0.20200301" />
+    <PackageReference Include="DlibDotNet.CUDA100" Version="19.20.0.20200725" />
     <PackageReference Include="OpenCvSharp3-AnyCPU" Version="4.0.0.20181129" />
   </ItemGroup>
 
